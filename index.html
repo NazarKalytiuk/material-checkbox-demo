@@ -10,14 +10,15 @@
 			font-family: 'Roboto', sans-serif;
 		}
 		body {
-background-color: #B71C1C;
-color: white;
+			background-color: #B71C1C;
+			color: white;
 		}
 		label {
 			margin: 2rem;
 			position: relative;
 			display: flex;
 			align-items: center;
+			flex-wrap: wrap;
 			line-height: 1rem;
 			height: 1rem;
 			background: inherit;
@@ -60,7 +61,10 @@ color: white;
 </head>
 <body>
 	<label>
-		<input type="checkbox"> material checkbox
+		<input type="checkbox"> <span>material checkbox</span>
+	</label>
+	<label>
+		<input type="checkbox" checked> <span>material checkbox</span>
 	</label>
 </body>
 </html>
